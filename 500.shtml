@@ -6,7 +6,10 @@
 The server encountered an internal error or misconfiguration and was unable to complete your request
 <HR>
 <I><!--#echo var="HTTP_HOST" --></I>
-</BODY></HTML>
+</BODY></HTML><br>
+	
+		<img src="images/servererror.JPG"/>
+			 
 
 
 

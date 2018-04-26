@@ -4,10 +4,11 @@
 </HEAD><BODY>
 <H1>Forbidden</H1>
 You don't have permission to access <!--#echo var="REQUEST_URI" --> on this server.
-<HR>
+<HR><img src="images/forbidden.jpg"/>
 <I><!--#echo var="HTTP_HOST" --></I>
-</BODY></HTML>
+</BODY></HTML><br>
 
+		
 
 
 

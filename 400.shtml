@@ -4,9 +4,12 @@
 </HEAD><BODY>
 <H1>Bad Request</H1>
 There was an error in your request.
-<HR>
+<HR><img src="images/badrequest.JPG"/>
 <I><!--#echo var="HTTP_HOST" --></I>
-</BODY></HTML>
+</BODY></HTML><br>
+	
+	
+		 
 
 
 
