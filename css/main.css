@@ -1,7 +1,19 @@
 @charset "UTF-8";
+@import url('html5doctor-reset.css');
+@import url('https://fonts.googleapis.com/css?family=Amatic SC|Istok Web|Quicksand');
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Chango|Quicksand|Sumana');
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Istok Web', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
 
-h1 {
-	color: red; 
+body {
+	background-color: #000;
+}
+* {
+	color: peachpuff; 
+	font-family: 'Amatic SC', cursive; 
+	
+	
 }
