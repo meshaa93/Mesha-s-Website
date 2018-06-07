@@ -1,15 +1,40 @@
 @charset "UTF-8";
 @import url('html5doctor-reset.css');
-@import url('nav.css');
 @import url('typography.css');
-@import url('https://fonts.googleapis.com/css?family=Amatic SC|Istok Web|Quicksand');
-/* CSS Document */
-/*
-font-family: 'Amatic SC', cursive;
-font-family: 'Istok Web', sans-serif;
-font-family: 'Quicksand', sans-serif;
-*/
+@import url('nav.css');
+
+
+/* Main CSS Document for my Ai WebSite */
+
+
+
 
 body {
 	background-color: #FFFFFF;
+	
+}
+	
+
+header {
+	min-height: 60px;
+	background: url('../images/header_bg.jpeg')
+}
+#wrapper {
+	background: url('../images/body_bg.png') top left no-repeat; 
+	background-size: cover;}
+img {
+	width: 100%;
+}
+#container {
+	padding;20px;
+	min-height;600px;
+
+}
+@media screen and (min-width:601px) 
+{
+	#wrapper {	
+
+		width: 600px;
+		margin: 0 auto;
+	}
 }

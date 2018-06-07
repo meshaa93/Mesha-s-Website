@@ -1,23 +1,46 @@
 /*CSS Document */
 
+/* Load in some Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-	
+@import url('https://fonts.googleapis.com/css?family=Amatic SC|Istok Web|Quicksand');	
+/*Load an icon library to show a hamburger menu (bars) on small screens */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-	/* CSS Document */
-
-* {
-	
-	
-}
-body {
+@font-face {
 	font-family: 'Open Sans', sans-serif;
+
 }
 
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Istok Web', sans-serif;
+ 
+*/
+
+h1 {
+	color: #FF0000;
+	color: rgba();
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.my {
+	font-size: 15px;}
+.Ai {
+	font-size: 70px;}
+.Site {			
+	font-size: 80px;}		
 nav a {
+	 
 	background-color: black;
 	color: white;
 	display:block;
-	
+	font-family: 'Quicksand', sans-serif;
 	
 }
-ul { list-style-type: none; }
+ul { list-style-type: none }
+
+footer p {
+	text-align: center;
+	font-size: 8px;
+	padding: 20px;
+}
